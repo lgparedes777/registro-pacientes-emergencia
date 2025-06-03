@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #b5e3e9;
+}
+
+h2, h4 {
+    color: #220af7;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(248, 4, 4, 0.1);
+    border-radius: 12px;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.table-crítico > td {
+    background-color: #ee0619 !important;
+    color: #721c24;
+}
+
+.table-urgente > td {
+    background-color: #fd7c12 !important;
+    color: #856404;
+}
+
+.table-moderado > td {
+    background-color: #f3e13b !important;
+    color: #856404;
+}
+
+.table-leve > td {
+    background-color: #04a329 !important;
+    color: #155724;
+}
+
+
+@media (max-width: 768px) {
+    .table-responsive {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
